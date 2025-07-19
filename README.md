@@ -1,10 +1,10 @@
 
-# 🚀 simple Tabs — Built by @alfredjbphiri 💻❤️
+# 🚀 simple Tabs Built by @alfredjbphiri 💻❤️
 
-UI is Trash I know 😒👌
+## UI is Trash I know 😒👌
 
 Welcome to the **coolest tabbed student portal😂😂** on the block 😎  
-Made at **UNILIA LAWS Campus** — repping that ICT life 📚👨🏽‍💻
+Made at **UNILIA LAWS Campus**  repping that ICT life 📚👨🏽‍💻
 
 ---
 
@@ -50,7 +50,7 @@ project/
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    ```
-2. Open `index.html` in any browser (Chrome, Edge, Firefox – no judgment)
+2. Open `index.html` in any browser (Chrome, Edge, Firefox no judgment)
 
 3. Click tabs ➡ enjoy the content slide in like magic ✨
 
@@ -77,8 +77,12 @@ Want to flex your design skills?
 Made with ❤️, code, and maybe a little procrastination  
 by **@alfredjbphiri**
 
-> Let’s connect or collab — don’t be shy 👇  
-> Email: [ict-01-09-23@unilia.ac.mw](mailto:ict-01-09-23@unilia.ac.mw)
+> Let’s connect or collab — don’t be shy 👇
+
+> [![Email Me](https://img.shields.io/badge/Email-ict--01--09--23@unilia.ac.mw-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ict-01-09-23@unilia.ac.mw)
+
+> [![WhatsApp](https://img.shields.io/badge/Chat%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/265991234567)
+
 
 ---
 
