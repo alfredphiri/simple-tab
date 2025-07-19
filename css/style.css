@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.tab-container {
+    text-transform: capitalize;
+}
+
+/* tab header styling */
+.tab-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    color: #FFFCFB;
+    padding: 5px;
+}
+
+.tab-header div {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: solid #FFFCFB 1px;
+    border-radius: 8px;
+    font-size: .7em;
+    transition: 0.1s cubic-bezier(1, 1, 1, 2);
+}
+
+.tab-header div span {
+    padding-left: 8px;
+}
+
+.tab-header div:hover {
+    color: #000000;
+    background-color: white;
+    box-shadow: 0 0 20px white;
+}
+
+/* TAB CONTENT STYLING only*/
+.tab-content {
+    width: 80%;
+    margin: 50px auto;
+    border: #000 solid 4px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px #1a1b1d8a;
+    padding: 20px;
+    display: none;
+}
+
+.tab-content h1, .tab-content h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.tab-content p {
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 10px;
+}
+
+ footer {
+    text-align: center;
+}
+
+/*  for responsiveness */
+
+@media (max-width: 500px) {
+    .tab-header div {
+        padding: 8px;
+    }
+
+    .tab-content {
+        width: 90%;
+    }
+
+    .tab-content h1 {
+        font-size: 1.8rem;
+    }
+}
