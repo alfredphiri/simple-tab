@@ -48,7 +48,7 @@ project/
 
 1. Clone it like a boss:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/alfredphiri/simple-tab.git
    ```
 2. Open `index.html` in any browser (Chrome, Edge, Firefox no judgment)
 
@@ -74,8 +74,8 @@ Want to flex your design skills?
 
 ## ✍️ Author
 
-Made with ❤️, code, and maybe a little procrastination  
-by **@alfredjbphiri**
+Made with ❤️, code, and maybe a little procrastination by **@alfredjbphiri**
+
 
 > Let’s connect or collab — don’t be shy 👇
 
