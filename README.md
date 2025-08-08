@@ -81,7 +81,7 @@ Made with ❤️, code, and maybe a little procrastination by **@alfredjbphiri**
 
 > [![Email Me](https://img.shields.io/badge/Email-ict--01--09--23@unilia.ac.mw-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ict-01-09-23@unilia.ac.mw)
 
-> [![WhatsApp](https://img.shields.io/badge/Chat%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/265991234567)
+> [![WhatsApp](https://img.shields.io/badge/Chat%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/265888057086)
 
 
 ---
