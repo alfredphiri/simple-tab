@@ -66,7 +66,7 @@ Want to flex your design skills?
 
 ---
 
-## 🔥 Screenshot Preview (Optional)
+## 🔥 Screenshot Preview
 
 ![Homepage Screenshot](screenshot.png)
 
