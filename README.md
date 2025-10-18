@@ -1,5 +1,5 @@
 
-# 🚀 simple Tabs Built by @alfredjbphiri 💻❤️
+# 🚀 simple Tabs Built by alfredjbphiri 💻❤️
 
 ## UI is Trash I know 😒👌
 
@@ -72,12 +72,10 @@ Want to flex your design skills?
 
 ---
 
-## ✍️ Author
-
-Made with ❤️, code, and maybe a little procrastination by **@alfredjbphiri**
+## ✍️ Author : **alfredjbphiri**
 
 
-> Let’s connect or collab — don’t be shy 👇
+> Let’s connect or collab don’t be shy 👇
 
 > [![Email Me](https://img.shields.io/badge/Email-ict--01--09--23@unilia.ac.mw-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ict-01-09-23@unilia.ac.mw)
 
@@ -88,4 +86,4 @@ Made with ❤️, code, and maybe a little procrastination by **@alfredjbphiri**
 
 ## ⚡ License
 
-MIT – use it, remix it, just don’t sell it to your lecturer 😅
+MIT:  use it, remix it, just don’t sell it to your lecturer 😅
