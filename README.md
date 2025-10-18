@@ -1,5 +1,5 @@
 
-# 🚀 simple Tabs Built by alfredjbphiri 💻❤️
+# 🚀 simple Tabs
 
 ## UI is Trash I know 😒👌
 
