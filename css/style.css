@@ -5,9 +5,17 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .tab-container {
+    max-width: 900px;
+    width: 95%;
+    margin: 40px auto;
+    flex: 1;
     text-transform: capitalize;
 }
 
@@ -17,70 +25,113 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     color: #FFFCFB;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
 .tab-header div {
-    padding: 10px 20px;
+    padding: 12px 24px;
     margin: 5px;
     cursor: pointer;
-    border: solid #FFFCFB 1px;
-    border-radius: 8px;
-    font-size: .7em;
-    transition: 0.1s cubic-bezier(1, 1, 1, 2);
+    border: solid transparent 1px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    align-items: center;
+}
+
+.tab-header div i {
+    font-size: 1.1rem;
 }
 
 .tab-header div span {
-    padding-left: 8px;
+    padding-left: 10px;
 }
 
 .tab-header div:hover {
-    color: #000000;
-    background-color: white;
-    box-shadow: 0 0 20px white;
+    background: rgba(255, 255, 255, 0.1);
 }
 
-/* TAB CONTENT STYLING only*/
+.tab-header div.active {
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* TAB CONTENT STYLING */
 .tab-content {
-    width: 80%;
-    margin: 50px auto;
-    border: #000 solid 4px;
-    border-radius: 8px;
-    box-shadow: 0 0 50px #1a1b1d8a;
-    padding: 20px;
+    background: #ffffff;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    padding: 40px;
     display: none;
+    animation: slideUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .tab-content h1, .tab-content h2 {
     text-align: center;
-    font-size: 2rem;
-    font-weight: 900;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #1a1a1a;
 }
 
 .tab-content p {
     text-align: center;
-    line-height: 1.5rem;
-    padding: 10px;
+    line-height: 1.8;
+    color: #4a4a4a;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 15px;
 }
 
- footer {
+footer {
     text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 0.9rem;
 }
 
-/*  for responsiveness */
+/* for responsiveness */
+@media (max-width: 600px) {
+    .tab-header {
+        flex-wrap: wrap;
+        padding: 5px;
+    }
 
-@media (max-width: 500px) {
     .tab-header div {
-        padding: 8px;
+        padding: 10px 15px;
+        font-size: 0.75rem;
+        flex: 1 1 40%;
+        justify-content: center;
     }
 
     .tab-content {
-        width: 90%;
+        padding: 25px;
+        width: auto;
     }
 
     .tab-content h1 {
         font-size: 1.8rem;
     }
 }
+
