@@ -73,12 +73,10 @@ simple-tab/
 
 ## Author: **alfredjbphiri**
 
-> [![Email](https://img.shields.io/badge/Email-alfredjbphiri@gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alfredjbphiri@gmail.com)
+> [![Email](https://img.shields.io/badge/Email-alfredjbphiri@gmail.com-blue?style=social&logo=gmail)](mailto:alfredjbphiri@gmail.com)
 
-> [![WhatsApp](https://img.shields.io/badge/Chat%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/265888057086)
+> [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B265888057086-25D366?style=social&logo=whatsapp)](https://wa.me/265888057086)
 
 ---
 
-##  License
-
-MIT ~ use it, remix it, learn from it.
+## Namasté 🙏
