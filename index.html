@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>simple tab by alfredjbphiri</title>
+    <title>Vanilla JS SPA — by alfredjbphiri</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <script src="fontawesome/js/all.js"></script>
@@ -25,62 +25,65 @@
 
             <div class="services"> 
                 <i class="fa-solid fa-handshake"></i>
-                <span>services</span>
+                <span>how it works</span>
             </div>
 
             <div class="contacts"> 
-                <i class="fa-solid fa-address-book"></i>
-                <span>contacts</span>
+                <i class="fa-solid fa-code"></i>
+                <span>try it</span>
             </div>
         </div>
 
        
         <!-- home container  -->
         <div class="home-container tab-content">
-            <h1>Welcome to our University of Livingstonia student portal!</h1>
-            <p>This portal is designed to provide you with easy access to information about our university, its services, and resources. Explore the tabs above to learn more about what we have to offer.</p>
+            <h1>Vanilla JS SPA Demo</h1>
+            <p>This is a minimal Single Page Application (SPA) built with pure HTML, CSS, and JavaScript — no React, no Vue, no frameworks at all.</p>
+            <p>Click the tabs above to navigate between views without reloading the page. That is the core idea behind a SPA!</p>
         </div>
 
 
         <!-- about container -->
       
         <div class="about-container tab-content">
-            <p>The University of Livingstonia is a prestigious institution in Malawi, dedicated to providing quality education and fostering spiritual growth. Our mission is to equip students with knowledge, skills, and values necessary to excel in their chosen fields.</p>
-            <p>"Our mission is to provide transformative education that empowers students to serve humanity and glorify God"</p>
+            <h1>What is a SPA?</h1>
+            <p>A <strong>Single Page Application</strong> loads one HTML page and dynamically updates content as the user interacts — without full page reloads.</p>
+            <p>This demo achieves that by toggling the visibility of div sections using JavaScript display style changes — simple and effective.</p>
         </div>
 
 
         <!-- services container -->
 
         <div class="services-container tab-content">
+            <h1>How it works</h1>
             <div>
-                <h2>Library resources</h2>
-                <p>Our library offers a vast collection of books, journals, and online resources to support your academic pursuits.</p>
+                <h2>1. Hide all sections</h2>
+                <p>When a tab is clicked, a hideAll() function sets every content section's display to none.</p>
             </div>
 
             <div>
-                <h2>Academic advising</h2>
-                <p>Our academic advisors are here to guide you in choosing courses, creating academic plans, and achieving your goals.</p>
+                <h2>2. Show the active section</h2>
+                <p>The section matching the clicked tab is then set to display: block, making it visible.</p>
             </div>
 
             <div>
-                <h2>Career counseling</h2>
-                <p>Our career counselors provide guidance on career choices, resume building, and job search strategies.</p>
+                <h2>3. Track the active tab</h2>
+                <p>An .active CSS class is toggled on the clicked tab to highlight the current view.</p>
             </div>
 
             <div>
-                <h2>Student organizations and clubs</h2>
+                <h2>4. Zero dependencies</h2>
+                <p>This entire routing mechanism uses native browser APIs — no libraries needed.</p>
             </div>
         </div>
 
         <!-- contacts container -->
 
         <div class="contacts-container tab-content">
-            <h2>Contact information</h2>
-            <p>University of Livingstonia</p>
-            <p>P.O. Box 32, Livingstonia, Malawi</p>
-            <p>Phone: +265 888 057 086</p>
-            <p>Email: alfredjbphiri@gmail.com</p>
+            <h1>Try it yourself</h1>
+            <p>Open index.html in any browser — no build step, no install, no server required.</p>
+            <p>Fork the source and extend it with window.history.pushState() to add real URL-based routing.</p>
+            <p>Built by @alfredjbphiri — kept intentionally simple.</p>
         </div>
     </div>
 
